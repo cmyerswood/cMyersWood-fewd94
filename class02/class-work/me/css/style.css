@@ -1,0 +1,13 @@
+body {
+	background: teal;
+	color: white;
+	font-family: helvetica, verdana, sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+img {border-radius: 20%;
+	transform: scale(0.5, 0.5);
+}
