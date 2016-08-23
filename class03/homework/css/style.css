@@ -1,3 +1,37 @@
-background{
-	color: gray;
-}
+#box{
+	background-color: #DCDCDC;
+	width: 1070px;
+	padding: 5px;
+	padding-bottom: 10px;
+	}
+
+#title{
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	margin: 10px;
+	margin-bottom: 25px;
+	}
+
+#first, #second, #third{
+	background-color: tomato;
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 15px;
+	margin: 10px;
+	}
+
+#first{color: blue;
+	}
+
+#second{color: green;
+	}
+
+	#third{color: yellow;
+		margin-bottom: 15px;
+	}
