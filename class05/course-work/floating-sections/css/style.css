@@ -12,7 +12,7 @@ header {
   background: red;
 }
 
-main {;
+main {
   background: yellow;
   float: left;
   width: 400px;
@@ -30,6 +30,5 @@ footer {
 
 .clear {
   clear: both;
-}
-
+}}
 
