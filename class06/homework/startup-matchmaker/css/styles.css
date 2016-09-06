@@ -165,25 +165,21 @@ p{
 	background: #EEE;
 	overflow: hidden;
 	padding: 2% 0;
+	display: inline-block;
+	width: 27%;
+	padding: 2% 3%;
 	}
 
 .boxes{
 	float: left;
-	width: 27.3333%;
-	padding: 2% 3%;
+	background: #EEE;
 	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
-	}
-
-.tout:last-child {
-	box-shadow: none;
-	}
-
-.tout .button {
-	background: #C6C6C6;
+	border-right: 10px red;
 	}
 
 footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
+	
 	}
