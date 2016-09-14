@@ -1,0 +1,28 @@
+.container{
+	background-color: blue;
+	width: 100%
+}
+
+header{
+	background-color: #61559F;
+}
+
+main{
+	background-color: #00A9D3;
+}
+
+nav{
+	background-color: #006A6E;
+}
+
+.wrapper{
+	background-color: #009481;
+}
+
+div{
+	background-color: #65C8D0;
+}
+
+footer{
+	background-color: #61559F;
+}
