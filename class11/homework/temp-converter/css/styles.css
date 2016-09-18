@@ -1,0 +1,9 @@
+body{
+	padding: 50px;
+	background-color: lightgray;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#output{
+	font-size: 30;	
+}

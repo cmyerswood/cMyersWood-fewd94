@@ -5,6 +5,8 @@
 
 header{
 	background-color: #61559F;
+	font-family: 'Poiret One', sans-serif;
+	font-size: 60px;
 }
 
 main{
@@ -13,16 +15,51 @@ main{
 
 nav{
 	background-color: #006A6E;
+	bottom-border: solid;
+	bottom-border: red 5px;	
 }
 
 .wrapper{
-	background-color: #009481;
-}
-
-div{
-	background-color: #65C8D0;
+	width: 100%;
+	clear: both;
+	background: linear-gradient(black, darkblue, blue, skyblue);
+	height: 1000px;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 
 footer{
 	background-color: #61559F;
+	clear: both;
+	margin: 20px;
+}
+
+ul {
+	padding: 10px;
+	display: inline-block;
+}
+
+a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+#timelines{
+	width: 200px;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, .4);
+	background-repeat: no-repeat;
+	height: 1000px;
+	filter: url('blur.svg#blur');
+}
+
+.navigation{
+	margin: 50px;
 }
