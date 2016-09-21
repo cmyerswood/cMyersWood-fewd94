@@ -4,8 +4,8 @@
   // alert(parseInt($('#temp').val()) + 10);
 // });
 
-var celsius;
-var fahrenheit;
+var celsius = 
+var fahrenheit = 
 var x = $(temp).val()* 1.8 + 32;
 var y = $(temp) * (1.8  - 32) / 1.8;
 
@@ -16,7 +16,7 @@ $('#output').html('celsius_input + "°C is " + fahrenheit + "°F"');
 }
 	
 	$('#c-to-f').click(function() {
-		var temp = $('#temp').val('')
+		var getTemp = $('#temp').val()
 	$('#output').html('')
 	});
 	
