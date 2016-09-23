@@ -5,5 +5,9 @@ body{
 }
 
 #output{
-	font-size: 30;	
+	font-size: 30px;	
+}
+
+#input, option, #submit{
+	margin: 10px;
 }

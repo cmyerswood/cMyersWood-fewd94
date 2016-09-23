@@ -11,15 +11,18 @@
 
 	<h1>Temperature Converter</h1>
 
-	<label for="temp">Enter temperature</label>
+	<label for="input">Enter temperature</label>
 	
-	<input type="text" id="temp"/>
+	<input type="type" name="input" id="input"/>
+	
+	<select>
+		<option value="c">Celsius</option>
+		<option value="f">Fahrenheit</option>
+	</select>
 
-	<button id="c2f">Convert to Fahrenheit</button>
-	<button id="f2c">Convert to Celsius</button>
-	<button id="reset">Reset</button>
+	<input type="submit" name="submit" id="submit">
 
-	<div id="output"></div>
+	<p id="output">OUTPUT GOES HERE</p>
 
 
 		<script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
