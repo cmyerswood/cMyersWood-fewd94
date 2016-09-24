@@ -15,11 +15,20 @@
 
 $(document).ready(function () {
 
+	var total = 0
+
 	console.log('ready');
 	$('#entry').submit(function(event){
+		event.preventDefault();
 		var myVal = $('#newEntry').val()
-		myFloat = parseFloat(myVal);
-		$('#entries').append("<tr><td></td><td>" + myFloat + "</td></tr>")
+		myVal = parseFloat(myVal);
+		$('#entries').append("<tr><td></td><td>" + myVal + "</td></tr>");
+
+		total = total + myVal
+
+		$('#total').text('$' + total)
+
+		$('#newEntry').val(' ')
 		// <tr>
 		// <td></td>
 		// <td></td>
