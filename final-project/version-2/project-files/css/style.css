@@ -4,56 +4,48 @@
 }
 
 header{
-	/*background-color: #61559F;*/
 	font-family: 'Poiret One', sans-serif;
 	font-size: 40px;
-	height: 200px;
+	height: 100px;
 	padding: 30px;
-	/*background-color: linear-gradient(lightsalmon, indianred, rebeccapurple, navy);*/
+	background-color: coral;
 }
 
 main{
-	/*background-color: #00A9D3;*/
-	background-color: linear-gradient(lightsalmon, indianred, rebeccapurple, navy);
-	height: 64px;
 	width: 100%;
-	padding-right: 16px;
-	margin-left: -8px;
-	margin-top: -8px;
-	transition: left 1.2s ease;
-	background: inherit;
-	
-	/* filter */
-	  
-	filter: blur(10px);
-	  -webkit-filter: blur(10px);
-	  -moz-filter: blur(15px);
-	  -o-filter: blur(15px);
-	  -ms-filter: blur(15px);
-	  z-index: 999;
-	}
-	  
-	.nav { position: fixed;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 64px;
-	  background: rgba(255,255,255,0.4);
-	  border-bottom: 1px solid rgba(0,0,0,0.5);
-	  z-index: 1000;
-	}
+	/*margin-left: -8px;*/
+	/*margin-top: -8px;*/
+	/*background: inherit;*/
+	width: 100%;
 }
 
 nav{
+	width: 100%;
+}
+
+li{
+	float: right;
 	background-color: #006A6E;
-	bottom-border: solid;
-	bottom-border: red 5px;	
+    padding: 10px 30px 10px 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a:hover {
+	color: white;
 }
 
 .wrapper{
 	width: 100%;
 	clear: both;
-	background: linear-gradient(#26eaef, blue, darkblue, black);
+	background: linear-gradient(#26eaef, blue, darkblue, black, black);
 	height: 10994px;
 	float: left;
 }
@@ -65,23 +57,7 @@ footer{
 	padding: 10px 10px 10px 30px;
 }
 
-ul {
-	padding: 10px;
-	display: inline-block;
-}
-
-a {
-	padding: 10px;
-	text-decoration: none;
-	color: black;
-	text-decoration: none;
-}
-
-a:hover {
-	color: white;
-}
-
-#depth{
+.depth{
 	width: 1px;
 	text-align: center;
 	background-color: rgba(255, 255, 255, 1);
@@ -102,10 +78,6 @@ a:hover {
 	color: rgba(255, 255, 255, 1);
 	margin-left: 50px;
 	}
-
-.navigation{
-	margin: 500px;
-}
 
 span{
 	display: inline-block;
