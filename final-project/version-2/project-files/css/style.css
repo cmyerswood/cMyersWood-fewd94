@@ -1,21 +1,22 @@
 .container{
-	/*background-color: linear-gradient (lightsalmon, navy);*/
 	width: 100%;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
 }
 
 header{
-	font-family: 'Cinzel Decorative', cursive;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 40px;
 	height: 100px;
 	padding: 30px;
 	color: white;
-	background-color: coral;
+	font-weight: 400;
+	background: linear-gradient(mediumblue, mediumvioletred, tomato);
 }
 
 main{
 	width: 100%;
-	background-color: coral;
+	background: linear-gradient(tomato, coral);
 	overflow: hidden;
 	height: 100px;
 }
@@ -26,7 +27,7 @@ nav{
 
 li{
 	float: right;
-	background-color: rgba(255,255,255,.2);
+	/*background-color: rgba(255,255,255,.2);*/
     padding: 10px 30px 10px 50px;
     display: block;
 }
@@ -46,9 +47,17 @@ a:hover {
 .wrapper{
 	width: 100%;
 	clear: both;
-	background: linear-gradient(#26eaef, blue, darkblue, black, black);
+	background: linear-gradient(#26EAEF, blue, darkblue, black, black);
 	height: 10994px;
 	float: left;
+}
+
+/*.wrapper2{
+	width: 100%;
+	clear: both;
+	background: linear-gradient(#26EAEF, blue, darkblue, black, black);
+	height: 10994px;
+	float: right;*/
 }
 
 footer{
@@ -56,6 +65,7 @@ footer{
 	background-color: #14141f;
 	clear: both;
 	padding: 10px 10px 10px 30px;
+	width: 100%;
 }
 
 .depth{
@@ -67,11 +77,21 @@ footer{
 	margin-left: 100px;
 	}
 
+/*.zone{
+	width: 1px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 1);
+	background-repeat: no-repeat;
+	height: 1000px;
+	margin-left: 100px;
+	float: right;
+	}*/
+
 .milestone {
 	font-size: 15px;
 	text-align: center;
 	color: rgba(255, 255, 255, 1);
-	margin: 10px 10px 10px 50px;
+	margin: 10px 10px 15px 50px;
 	width: 100px;
 	}
 
@@ -89,7 +109,7 @@ span{
 	vertical-align: middle;
 }
 
-.sources {
+li .sources {
 	font-size: 10px;
 	color: white;
 }
