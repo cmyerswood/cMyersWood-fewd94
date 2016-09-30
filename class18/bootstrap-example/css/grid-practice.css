@@ -1,0 +1,18 @@
+.rowA div {
+	outline: 1px solid black;
+	background-color: lightgray;
+	height: 200px;
+	margin: 10px 5px 0px 0px;
+}
+
+.rowB div {
+	outline: 1px solid black;
+	background-color: lightgray;
+	height: 400px;
+	margin: 10px 5px 0px 0px;
+}
+
+article {
+	background-color: red;
+	height: 100%;
+}
