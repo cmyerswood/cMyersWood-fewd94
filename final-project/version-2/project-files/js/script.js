@@ -5,19 +5,26 @@
 
 $(document).ready(function () {
 
-	$(nav).hover(
-        function (event) {
-            $(this).find(".hideshow").show();
-            $(this).find(".hideshow").css("background-color", "#808080");
+	$('#more').mouseover(function(){
+        $('nav').slideToggle();
+    });
 
-        },
-        function (event) {
-            $(this).find(".hideshow").hide();
-            $(this).find(".hideshow").css("background-color", "#fff");
-        }
-     );
+  $('#depth1').click(function () {
+          $(this).show('slide', { direction: 'left' }, 1000);
+    });
 
+    // $('#depth1').click(function () {
+    //       $(this).show("#cat", { direction: "left" }, 1000);
+    // });
 
+// var amountScrolled = 100;
 
+// $('.wrapper').scroll(function() {
+//     if ( $('.wrapper').scrollTop() > amountScrolled ) {
+//         $('a.back-to-top').fadeIn('slow');
+//     } else {
+//         $('a.back-to-top').fadeOut('slow');
+//     }
+// });
 
 });

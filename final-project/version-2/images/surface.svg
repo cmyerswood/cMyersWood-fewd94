@@ -3,23 +3,19 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1280 155" style="enable-background:new 0 0 1280 155;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FF7F50;}
+	.st0{fill:#80C6FF;}
 	.st1{fill:url(#SVGID_1_);}
 	.st2{fill:#26EAEF;}
 	.st3{fill:#231F20;}
 	.st4{opacity:0.6;fill:#26EAEF;enable-background:new    ;}
 </style>
 <rect x="-36" y="-8.5" class="st0" width="1338" height="163.5"/>
-<radialGradient id="SVGID_1_" cx="811.5" cy="745.8" r="59.2" gradientTransform="matrix(1 0 0 1 0 -644)" gradientUnits="userSpaceOnUse">
-	<stop  offset="0.5217" style="stop-color:#FFF084"/>
-	<stop  offset="0.6135" style="stop-color:#FFED83"/>
-	<stop  offset="0.6851" style="stop-color:#FFE37E"/>
-	<stop  offset="0.75" style="stop-color:#FFD276"/>
-	<stop  offset="0.8108" style="stop-color:#FFBB6C"/>
-	<stop  offset="0.8682" style="stop-color:#FF9D5E"/>
-	<stop  offset="0.9149" style="stop-color:#FF7F50"/>
+<radialGradient id="SVGID_1_" cx="811.5" cy="735.5" r="69.5" gradientTransform="matrix(1 0 0 1 0 -644)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.7196" style="stop-color:#FFFF00"/>
+	<stop  offset="1" style="stop-color:#80C6FF"/>
 </radialGradient>
-<circle class="st1" cx="811.5" cy="101.8" r="59.2"/>
+<circle class="st1" cx="811.5" cy="91.5" r="69.5"/>
 <rect x="-24.6" y="90.6" class="st2" width="1326.6" height="75.5"/>
 <g id="Layer_2">
 </g>

@@ -1,0 +1,5 @@
+On hover, show nav.
+
+On scroll, header + nav remain fixed in place.
+
+On hover of <div id="milestone">, <img class="mark"> scroll horizontally on and off screen.
