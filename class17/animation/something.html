@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animate.css</title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+		<style>
+		h1{
+			color: red;
+		}
+
+		h1:hover{
+			color: gold;
+			font-size: 200px;
+		}
+	</style>
+
+</head>
+
+<body>
+<!-- <h1 class="animated infinite bounce">HELLO</h1> -->
+
+	<h1 class="animated">FARTS</h1>
+	<button>Click me</button>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		$('button').click(function(){
+			console.log('test')
+			$('.animated').addClass('bounce infinite');
+		});
+	</script>
+</body>
+</html>
